@@ -2,6 +2,7 @@
 
 Create, manage, and own shops entirely in-game. No config editing. No restarts. Just /createshop and go.
 
+SHOWCASE: https://youtu.be/oafQwWOeLdc
 
 ✨ Features
 
@@ -33,7 +34,7 @@ CommandPermissionDescription/createshopAdminCreate a shop at your current positi
 TypeDescription🛒 Buy ShopPlayers purchase items with cash, bank, or custom currency💸 Sell ShopPlayers sell items from their inventory to the shop🥤 Vending MachineAuto-registered world props, quarters-only payment🏬 Player-OwnedAny shop with an assigned owner who earns a cut of every sale
 
 🪙 Quarter System
-Vending machines and shops support cent-level pricing — $1.25, $2.50, etc. The system handles exact change automatically. If a player doesn't have quarters, they pay the next whole dollar and receive quarter change back. Vending machines are strictly quarters-only, no cash accepted.
+Vending machines auto use quarter_money is if you have it as an item. If you would like to change it you can totally customize it or you can just create your own shops if trying to avoid change.
 
 🔐 Security
 
