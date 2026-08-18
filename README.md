@@ -1,3 +1,26 @@
+**RESOURCE HAS BEEN UPDATED**
+
+GC-Shops Update
+
+**Fixed bug**
+
+Target locations duplicating at shop positions over time. Ped and zone targets were building up on every reconnect, /reloadshops, 
+or shop edit because ox_target zones weren't being tracked or removed correctly. Zones now clean up properly on every re-sync — no more stacking.
+
+**New Stock Flow**
+
+Stock Item — shop owners can now restock their shop directly from their own inventory instead of paying cash. Deposit items you're carrying straight into your shop's stock.
+Works for any item registered in ox_inventory — no preset list required.
+Adding a brand-new item to your shop asks you to set its price on the spot.
+Restocking an item already in your shop just tops up the quantity — price stays untouched.
+New Stock Item option added to the /managemyshop dashboard, plus a quicker Restock From My Inventory action inside each item's menu in My Inventory.
+
+**Removed Old Stocking ways**
+
+Cash-based paid restocking (paid_restock / restock_price) — fully replaced by inventory-based stocking above.
+
+
+
 🏪 GC-Shops — Dynamic Shop System for QBCore
 
 Create, manage, and own shops entirely in-game. No config editing. No restarts. Just /createshop and go.
