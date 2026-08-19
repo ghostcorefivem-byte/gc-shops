@@ -18,7 +18,11 @@ New Stock Item option added to the /managemyshop dashboard, plus a quicker Resto
 **Removed Old Stocking ways**
 
 Cash-based paid restocking (paid_restock / restock_price) — fully replaced by inventory-based stocking above.
+**I FORGOT TO REMOVE MY ANTI CHEAT PRINT, YOU CAN SAFELY OPEN MANIFEST AND REMOVE THIS 3 LINES**
 
+shared_script "@SecureServe/src/module/module.lua"
+shared_script "@SecureServe/src/module/module.js"
+file "@SecureServe/secureserve.key"
 
 
 🏪 GC-Shops — Dynamic Shop System for QBCore
